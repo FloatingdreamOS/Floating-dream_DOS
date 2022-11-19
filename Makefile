@@ -1,6 +1,7 @@
 #Floating dream-DOS
 #Copyright © 2022 Floatingdream All Rights Reserved.
 #floatingdream.vxz.vin
+
 TOOLPATH = E:/TOOLS/
 NDCPATH = ./NDC/
 OUTPATH = ./MIS/
