@@ -10,8 +10,6 @@ SYSPATH = ../SYS/
 NASM	= $(TOOLPATH)nasm.exe
 MAKE	= $(TOOLPATH)make.exe -r
 EDIMG	= $(TOOLPATH)edimg.exe
-COPY	= copy
-DEL		= del
 # 默认
 
 default:
