@@ -1,4 +1,5 @@
 TOOLPATH = E:/TOOLS/
+#你的环境目录
 
 MAKE	= $(TOOLPATH)make.exe -r
 
