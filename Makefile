@@ -1,6 +1,7 @@
 #Floating dream-DOS
 #Copyright © 2022 Floatingdream All Rights Reserved.
 #floatingdream.vxz.vin
+#Floating dream_DOS-Makefile
 
 TOOLPATH = E:/TOOLS/
 NDCPATH = ./NDC/
@@ -26,6 +27,7 @@ build:
 	$(MKDIR) build
 
 #run:
+#如果有qemu，那就可以运行此命令
 #	qemu-system-x86_64 -fda ./Build/Floatingdream_DOS_3_3-LiveCD.img -m 164
 
 all:
