@@ -3,6 +3,6 @@
 %DEFINE OS_BUILD		'Build_22246.1109.A6'
 %DEFINE OS_NAME         'Floating dream_DOS'
 %DEFINE OS_CPOY         'Copyright (C) 2022 Floatingdream All Rights Reserved.'
-%DEFINE OS_SETUP        ' Setup'
+;%DEFINE OS_SETUP        ' Setup'
 %DEFINE OS_FILEV        'Floating_dream_DOS File Manager V-1.0'
 %DEFINE OS_FILEC        'Copyright (C) 2022 Floatingdream.'
