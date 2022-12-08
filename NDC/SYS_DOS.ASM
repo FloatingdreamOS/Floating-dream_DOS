@@ -60,8 +60,8 @@ DEBUGMODEPUT	DB	'[root]# ',0
 LINEPUT			DB	'[user]$ ',0
 BADCOM			DB	'Error instruction: No such order.',0
 CLSCOM			DB	'cls'
-TIMECOM			DB	''
-TIMEMSG			DB	'',0DH,0AH,0
+TIMECOM			DB	'time'
+TIMEMSG			DB	'??:??',0DH,0AH,0
 DATECOM			DB	''
 DATEMSG			DB	'',0DH,0AH,0
 SHUTDOWNCOM		DB	'shutdown'
@@ -189,13 +189,7 @@ START:
 	MOV	AL,[DRIVETEMP]
 	MOV	[LINEPUT],AL
 	MOV	SI,LINEPUT
-; OS去掉注释符“ ; ”
-;	MOV AH, 09H			; DRAW WHITE BAR AT TOP
-;	MOV BH, 0
-;	MOV CX, 22
-;	MOV BL, 1111B
-;	MOV AL, ' '
-;	INT 10H				;
+    
 	MOV	AH,01H
 	INT	36H
 	MOV	SI,0
