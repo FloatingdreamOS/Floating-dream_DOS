@@ -15,8 +15,6 @@ EDIMG	= $(TOOLPATH)edimg.exe
 FATTOOLS = $(TOOLPATH)fat12tools.exe -file $(IMGPATH)Floatingdream_DOS_3_3-LiveCD.img
 MKDIR	= mkdir
 COPY	= copy
-RD		= rd
-DEL		= del
 
 # 默认
 
