@@ -156,7 +156,7 @@ FINDLOADER:
 .END:
     CALL    NEWLINE
     MOV SI,ERRORMSG
-    MOV AH, 09H			; DRAW WHITE BAR AT TOP
+    MOV AH, 09H			;
 	MOV BH, 0
 	MOV CX, 10000
 	MOV BL, 00011111b
@@ -184,7 +184,6 @@ NEWLINE:
     INT 10h
     RET
 
-;----------------------------------------------------------
 ;字符串
 STARTPUT    DB  'Starting Floating dream_DOS...','$'
 LOADERBIN   DB  'LOADER  SYS'
@@ -192,6 +191,7 @@ CYLIND      DB  0
 HEADER      DB  0
 SECTOR      DB  1
 ERRORMSG:
+;错误显示
 ;DB  'Boot Error: NO LOADER.BIN IN DRIVE F.','$';0xc0000098
             DB	':( STOP!',0DH,0AH
 			DB	':( System is Error!',0DH,0AH
